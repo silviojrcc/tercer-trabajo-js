@@ -1,4 +1,4 @@
-function ejercicio01(el){
+function ejercicio01(){
     const articleEl = document.createElement("article");
     articleEl.innerHTML = `
     <h2>Ejercicio 1</h2>
@@ -20,5 +20,5 @@ function ejercicio01(el){
         texto += "</ul>";
         resultado.innerHTML = texto;
     });
-    el.appendChild(articleEl);
+    return articleEl;
 }
