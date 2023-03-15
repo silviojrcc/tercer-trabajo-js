@@ -1,7 +1,7 @@
 function ejercicio06(){
     const articleEl = document.createElement("article");
     articleEl.innerHTML = `
-        <h2>Ejercicio 3</h2>
+        <h2>Ejercicio 6</h2>
         <form class="form">
             <div>
                 <label for="base">Ingrese el valor de la base del rectangulo</label>
