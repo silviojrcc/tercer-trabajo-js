@@ -1,5 +1,4 @@
 function ejercicio04() {
-    console.log("esta ingresando")
   const articleEl = document.createElement("article");
   articleEl.innerHTML = `
         <h2>Ejercicio 4</h2>
