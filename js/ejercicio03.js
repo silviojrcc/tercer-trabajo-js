@@ -23,8 +23,7 @@ function ejercicio03() {
     const base = parseInt(articleEl.querySelector(".base").value);
     const altura = parseInt(articleEl.querySelector(".altura").value);
     const resultado = articleEl.querySelector(".resultado");
-    let texto = "";
-
+    
     if (
       !isNaN(base) &&
       !isNaN(altura) &&
