@@ -15,6 +15,10 @@ function ejercicio06(){
         </form>
         <p class="resultado"></p>
       `;
+
+    function calcularPerimetro(base, altura) {
+        return 2*(base+altura);
+    }
   
     const formEl = articleEl.querySelector(".form");
     formEl.addEventListener("submit", (e) => {
@@ -30,7 +34,7 @@ function ejercicio06(){
         base >= 1 &&
         altura >= 1
       ) {
-        resultado.textContent = `El perimetro del rectangulo ingresado es ${2*(base+altura)}`
+        resultado.textContent = `El perimetro del rectangulo ingresado es ${calcularPerimetro(base,altura)}`
       } else {
         resultado.textContent = "Debe ingresar numeros validos!";
       }
