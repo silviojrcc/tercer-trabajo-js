@@ -14,7 +14,7 @@ function router(container) {
     },
     {
       path: /\/ejercicio04/,
-      ejercicio: ejercicio05,
+      ejercicio: ejercicio04,
     },
     {
       path: /\/ejercicio05/,
